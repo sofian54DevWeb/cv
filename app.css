@@ -5,6 +5,7 @@
 }
 body{
     font-family: sans-serif ;
+    height: 100%;
 }
 
 .profil{
@@ -17,7 +18,7 @@ body{
     background-color: white;
     margin: 1rem;
     margin-left: 5rem;
-    width: 60%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -32,7 +33,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-image: url(soso2.JPG);
+    background-image: url(sofian.JPG);
+    background-position-y: top;
+    background-position-X: center;
     width: 100%;
     height: 60vh;
     background-repeat: no-repeat;
@@ -44,6 +47,7 @@ body{
 }
 .photo h2{
     margin-left: 1rem;
+    margin-bottom: 1rem;
     font-size: larger;
 }
 
@@ -83,7 +87,7 @@ body{
     margin: 1rem;
     margin-right: 5rem;
     width: 100%;
-    height: 1300px;
+    height: 100%;
     display: flex;
     flex-direction: column;
   
@@ -111,6 +115,7 @@ a{
 .experience .icone{
     margin-left: 1rem;
 }
+
 .titre{
     margin: 1rem;
 }
@@ -120,9 +125,10 @@ a{
 
 .date{
     display: flex;
+    align-items: center;
     margin-left: 1rem;
     margin-top: 0.5rem;
-    color: rgb(53, 124, 109);
+    color: #198754;
 }
 .lieu{
     display: flex;
@@ -136,9 +142,17 @@ a{
 .icone i {
     font-size: 2rem;
 }
-
+.right h4{
+    margin-bottom: -0.1rem;
+}
+.education .date h4{
+    margin-left: 0.2rem;
+}
+.education .lieu i {
+    margin-left: -0.2rem;
+}
 i{
-    color: rgb(53, 124, 109);
+    color: #198754;
     margin-right: 1rem;
 }
 hr{
@@ -150,7 +164,7 @@ hr{
 .education .line {
     margin-bottom: 1rem;
 }
-@media only screen and (max-width : 1050px) {
+@media only screen and (max-width : 1300px) {
 
     .left{
         margin-left: 1rem;
@@ -160,12 +174,46 @@ hr{
     }
     
 }
-@media only screen and (max-width : 680px) {
+@media only screen and (max-width : 768px) {
     .profil{
         flex-wrap: wrap;
     }
     .left{
         width: 100%;
     }
+    .photo{
+        background-position-y: top;
+    }
+    .left{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .right{
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
     
+}
+footer{
+    background:rgb(204, 204, 204);
+
+    bottom:0;
+    width:100%;
+    height:25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.reseau i{
+    color: white;
+    font-size: 2rem;
+}
+.mention{
+    
+    color: white;
+    text-align: center;
+  
 }
