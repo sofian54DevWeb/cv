@@ -184,14 +184,7 @@ hr{
     .photo{
         background-position-y: top;
     }
-    .left{
-        margin-left: 4rem;
-        margin-right: 4rem;
-    }
-    .right{
-        margin-right: 4rem;
-        margin-left: 4rem;
-    }
+   
     
 }
 footer{
